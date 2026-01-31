@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --secondary: #1e1e1e;
+  --accent: #01bf8f;
+
+  --background-color: #121212;
+  --card-surface-primary: #1e1e1e;
+  --card-surface-2: #2c2c2c;
+  --card-surface-secondary: #242424;
+  --btn-bg-color: #007c49;
+  --primary-color: #01bf8f;
+  --secondary-color: #0add87;
+  --text-color-primary: #eaeaea;
+  --text-color-secondary: #a3a3a3;
+  --text-color-muted: #6e6e6e;
+  --color-grey-700: #4e4e4e;
+  --color-grey-800: #2c2c2c;
+  --danger-color: red;
+  --accent-color-provider: #4fc3f7;
+  --accent-color-request: #ffb74d;
+  --accent-color-job: #3b82f6;
+  --accent-color-hire: #f59e0b;
+  --accent-color-fund: #ba75fc;
+  --accent-color-refer: #10b981;
+  --accent-color-star: #facc15;
+  --accent-color-gradient: linear-gradient(110deg, #a94fff, #e37e6d);
+  --subscribe-color-border-gradient:
+    linear-gradient(#121212) padding-box,
+    linear-gradient(110deg, #a94fff, #e37e6d) border-box;
+  --view-color-border-gradient:
+    linear-gradient(#1e1e1e) padding-box,
+    linear-gradient(110deg, #a94fff, #e37e6d) border-box;
+}
+
+.glass-effect {
+  background: rgba(47, 55, 56, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16.5px);
+  -webkit-backdrop-filter: blur(16.5px);
+  border-radius: 10px;
+}
+
+body {
+  color: var(--text-color-primary);
+  background: var(--background-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
